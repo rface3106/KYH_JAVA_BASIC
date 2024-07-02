@@ -5,10 +5,6 @@ public class Book {
     String author;
     int page;
 
-    Book(){
-        this("", "", 0);
-    }
-
     Book(String title, String author){
     this(title, author, 40);
     }
